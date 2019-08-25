@@ -5,11 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "edge",
             "request": "launch",
-            "name": "Launch Chrome",
+            "version": "beta",
+            "name": "Debug in Edge",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "start"
         }
     ]
 }
