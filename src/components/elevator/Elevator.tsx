@@ -14,7 +14,7 @@ const Elevator = () => {
                 Samuel Oechsler
             </h2>
             <h3 className='pt-4 font-lato text-base text-white'>
-                <strong>20.</strong> Student, developer{' '}
+                <strong>21.</strong> Student, developer{' '}
                 <a href='#' className='opacity-75 hover:opacity-100 font-lato'>
                     @medialesson
                 </a>

@@ -5,7 +5,9 @@ import { Navigation } from '../../components/navigation/Navigation';
 import { Elevator } from '../../components/elevator/Elevator';
 
 import thumbOverview from '../../images/thumb-overview.jpg';
+import thumbPlank from '../../images/thumb-plank.jpg';
 import { Page } from '../../components/page/Page';
+import { About } from '../../components/about/About';
 
 const Home = () => {
     return (
@@ -17,7 +19,10 @@ const Home = () => {
                 </Navigation>
                 <Elevator />
             </Hero>
-            <Page></Page>
+            <Page>
+                <About />
+            </Page>
+            <Page background={thumbPlank} />
         </>
     );
 };
