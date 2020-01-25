@@ -5,6 +5,7 @@ import { Navigation } from '../../components/navigation/Navigation';
 import { Elevator } from '../../components/elevator/Elevator';
 
 import thumbOverview from '../../images/thumb-overview.jpg';
+import { Page } from '../../components/page/Page';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                 </Navigation>
                 <Elevator />
             </Hero>
+            <Page></Page>
         </>
     );
 };
